@@ -72,3 +72,60 @@
 .end-box {
     align-self: flex-end;
 }
+
+.main-3{
+    display: flex;
+    justify-content: center;
+}
+
+.big-box{
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    color:white;
+    position: relative;
+}
+
+.small-box{
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    color:white;
+}
+
+.box-position{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+.box-2{
+    background-color: yellow;
+}
+
+.box-position-2{
+    position: relative;
+    left: 50px;
+    top: -50px;
+}
+
+.big-box-2 {
+    width: 600px;
+    height: 400px;
+    background-color: gray;
+    color:white;
+    position: absolute;
+    right: 0px;
+}
+
+.top-box{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.bottom-box{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
